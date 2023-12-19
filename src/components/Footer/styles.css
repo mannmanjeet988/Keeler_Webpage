@@ -1,0 +1,38 @@
+.schools-container{
+    display:flex;
+    flex-direction: column;
+    gap:2rem;
+}
+
+
+.schools-img-container{
+    /* display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-template-rows: 1fr;
+grid-column-gap: 8px; */
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+/* border: 1px solid pink; */
+}
+
+.school-img-div{
+    width:22%;
+}
+
+.schools-img-container  img{
+   width:100%;
+   height:100%;
+   border:1px solid grey;
+   border-radius: 15px;
+}
+
+.school-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.school-text span{
+    font-size: 18px;
+}
