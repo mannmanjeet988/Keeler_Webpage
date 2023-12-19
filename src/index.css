@@ -26,10 +26,10 @@ code {
 }
 
 #sec-four{
-  /* background-color: rgba(30, 143, 255, 0.548); */
-  background-image: url("https://img.freepik.com/free-photo/vivid-blurred-colorful-wallpaper-background_58702-3799.jpg");
+  background-color: rgba(30, 143, 255, 0.226)
+  /* background-image: url("https://img.freepik.com/free-photo/vivid-blurred-colorful-wallpaper-background_58702-3799.jpg");
   background-size: cover; 
-  background-repeat:no-repeat
+  background-repeat:no-repeat */
 }
 
 button{

@@ -1,0 +1,36 @@
+#section-three{
+    display:flex;
+    flex-direction: column;
+    gap:1rem;
+}
+
+.section-three-conatiner{
+    display:flex;
+    justify-content: space-between;
+}
+
+.section-three-conatiner .left-container {
+    width:68%;
+    border:1px solid brown;
+}
+
+.section-three-conatiner .right-container {
+    width:30%;
+    border:1px solid brown;
+}
+
+.eventsHeading{
+    background-color: dodgerblue;
+    color:white;
+    padding:0.5rem;
+    font-size: 20px;
+}
+
+.events-container{
+    display:flex;
+    flex-direction: column;
+    border:1px solid blue;
+    gap:1rem;
+    width:100%;
+    /* padding-right:1rem; */
+}

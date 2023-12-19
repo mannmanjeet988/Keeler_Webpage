@@ -1,0 +1,29 @@
+.card-section-three{
+    display:flex;
+    gap:1rem;
+}
+
+.date-conatiner{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: darkslategray;
+    padding: 0.2rem 1rem;
+    color:white;
+}
+
+.top-number{
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.event-info-conatiner{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.event-info-conatiner span{
+    font-size:0.75rem;
+    font-weight: 500;
+}

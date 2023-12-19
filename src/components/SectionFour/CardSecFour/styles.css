@@ -1,0 +1,32 @@
+.card-4-container{
+    display:flex;
+    flex-direction: column;
+    background-color: white;
+    min-height:400px;
+}
+
+.top-container{
+    margin-bottom: 0.8rem;
+}
+
+.bottom-container{
+    padding:0.3rem 2rem;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    min-height:170px;
+}
+
+.sec-4date{
+    color:grey;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.sec-4text{
+    font-size: 18px;
+}
+
+
+
