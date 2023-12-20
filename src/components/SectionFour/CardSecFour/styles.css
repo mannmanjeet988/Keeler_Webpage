@@ -18,6 +18,20 @@
     min-height:170px;
 }
 
+.arrow-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:0.3rem;
+    
+}
+
+ /* .arrow-icon{
+    position:absolute;
+    margin-left:5.5rem;
+    
+}  */
+
 .sec-4date{
     color:grey;
     font-size: 0.8rem;

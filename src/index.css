@@ -25,6 +25,10 @@ code {
   border: 1px solid black;
 }
 
+#section-2,#section-1{
+  padding: 2rem 4rem;
+}
+
 #sec-four{
   background-color: rgba(30, 143, 255, 0.226)
   /* background-image: url("https://img.freepik.com/free-photo/vivid-blurred-colorful-wallpaper-background_58702-3799.jpg");
@@ -60,4 +64,10 @@ a{
   /* background-color: #052133; */
   border-radius: 50%;
 }
+
+.arrow-icon{
+  /* margin-bottom: -0.8rem; */
+  font-size:1rem;
+}
+
 

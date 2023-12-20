@@ -1,0 +1,13 @@
+.locations-card-container{
+    display:flex;
+    flex-direction: column;
+    width:95%;
+    gap:0.5rem;
+}
+
+.locations-card-bottom-container{
+    display:flex;
+    flex-direction: column;
+    gap:0.5rem;
+    text-align: left;
+}

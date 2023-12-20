@@ -1,6 +1,7 @@
 import React from 'react'
 import "./styles.css"
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos'; 
+import { FaChevronRight } from "react-icons/fa6";
 
 
 const CardSecFive = ({text1,text2,text3,srcLink}) => {
@@ -15,7 +16,10 @@ const CardSecFive = ({text1,text2,text3,srcLink}) => {
             <h4>{text2}</h4>
            <div className='arrow-container'>
                <a id="sec5AnchorTag" href="#">{text3}</a>
-               <span className='arrow-icon'><ArrowForwardIosIcon/></span>
+               {/* <span className='arrow-icon'><ArrowForwardIosIcon/></span> */}
+               {/* <span className='arrow-icon'> */}
+                <FaChevronRight/>
+                {/* </span> */}
            </div>
        </div>
     </div>

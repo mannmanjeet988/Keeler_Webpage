@@ -16,7 +16,7 @@ const SectionFour = () => {
            <div className='sec4-card-container-innerDiv'>
            <CardSecFour 
            srcLink="https://www.keelerglobal.com/wp-content/uploads/2023/08/eye_drop_header.jpg" 
-           text={"Explaining the concept of SMART Goals (Specific, Measurable,Attainable,Relevant,Time-bound) and how to apply it "} 
+           text={"Explaining the concept of SMART Goals (Specific, Measurable,Attainable,Relevant,Time-bound) and how to apply it"} 
             />
            </div>
            <div className='sec4-card-container-innerDiv'>

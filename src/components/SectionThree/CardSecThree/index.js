@@ -9,8 +9,8 @@ const CardSecThree = ({text1,text2,text3,text4, state=false}) => {
             <span id="bottom-number">{text2}</span>
         </div>
         <div className='event-info-conatiner'>
-             <span>{text3}</span>
-             <span>{text4}</span>
+             <p>{text3}</p>
+             
         </div>
 
 

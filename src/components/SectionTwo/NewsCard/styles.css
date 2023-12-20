@@ -1,0 +1,33 @@
+.newscardContainer{
+    display:flex;
+    flex-direction: column;
+    border:1px solid blue;
+    align-items: flex-start;
+    /* min-width:350px; */
+    width:95%;
+}
+
+.newsCard-top-container{
+    max-height:250px;
+    max-width:100%;
+}
+
+.newsCard-top-container img{
+    height:auto;
+    width:100%;
+    text-align: center;
+    padding-bottom: 0.5rem;
+}
+
+.newsCard-date-container{
+    display:flex;
+    gap:0.5rem;
+}
+
+.newsCard-bottom-container{
+    display:flex;
+    flex-direction: column;
+    text-align:left;
+    gap:0.5rem;
+    text-wrap: wrap;
+}

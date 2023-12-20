@@ -20,8 +20,8 @@ const SectionThree = () => {
             <CardSecThree
               text1={"09"}
               text2={"Feb"}
-              text3={"The importance of Self-Care in"}
-              text4={"Maintaining a Positive Mindset"}
+              text3={"The importance of Self-Care in Maintaining a Positive Mindset"}
+             
               state={true}
             />
             </div>
@@ -29,16 +29,16 @@ const SectionThree = () => {
             <CardSecThree
               text1={"20"}
               text2={"Jan"}
-              text3={"Creating a daily Positive Routine: Simple "}
-              text4={"Steps for making positivity a Habit"}
+              text3={"Creating a daily Positive Routine: Simple Steps for making positivity a Habit"}
+              
             />
             </div>
             <div>
             <CardSecThree
               text1={"18"}
               text2={"Mar"}
-              text3={"Surrounding Yourself with Positivity:"}
-              text4={"Strategies for Building a Positive Network"}
+              text3={"Surrounding Yourself with Positivity: Strategies for Building a Positive Network"}
+              
             />
             </div>
           </div>

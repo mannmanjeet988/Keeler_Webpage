@@ -1,6 +1,8 @@
 import React from "react";
 import "./styles.css";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
+import { FaChevronRight } from "react-icons/fa6";
+
 
 const Footer = () => {
   return (
@@ -31,9 +33,10 @@ const Footer = () => {
           <span>
             <a href="#">Explore all schools</a>
           </span>
-          <span className="arrow-icon">
+          {/* <span className="arrow-icon">
             <ArrowForwardIosIcon />
-          </span>
+          </span> */}
+          <span className='arrow-icon'><FaChevronRight/></span>
         </div>
       </div>
     </div>
