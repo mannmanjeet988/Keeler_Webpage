@@ -17,6 +17,7 @@
   border: 1px solid blue;
   /* width:420px; */
   /* width:300px; */
+  /* max-height: 302px */
 }
 
 @media screen and (max-width: 550px) {

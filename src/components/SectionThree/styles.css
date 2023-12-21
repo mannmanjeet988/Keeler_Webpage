@@ -90,7 +90,7 @@
 
 @media screen and (max-width:550px){
     #section-three{
-        padding-top:1rem!important;
+        padding-top:0.5rem !important;
     }
     .section-three-conatiner{
         display:flex;

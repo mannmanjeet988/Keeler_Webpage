@@ -19,7 +19,7 @@ const SectionFive = () => {
             srcLink="https://www.keelerglobal.com/wp-content/uploads/2023/05/support1.png"
             text1={"Return Your Product For Repair"}
             // text2={"For Repair"}
-            text3={"Fill the Form"}
+            text3={"Fill the Form"}  
           />
           <hr />
           <CardSecFive
