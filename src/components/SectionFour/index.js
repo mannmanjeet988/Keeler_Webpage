@@ -15,15 +15,16 @@ const SectionFour = () => {
       <div className="sec4-card-container">
         <div className="sec4-card-container-innerDiv">
           <CardSecFour
-            srcLink="https://www.keelerglobal.com/wp-content/uploads/2023/02/bio_maintenance.jpg"
-            text={
-              "Explaining the concept of SMART Goals (Specific,Measurable,Attainable,Relevant, Time-bound) and how to apply it"
+            srcLink="https://www.youtube.com/embed/Rp9JOqJ3dew?si=7O61mYcrXgGfH4vs"
+           
+             text={
+              "Explaining the concept of SMART Goals: Specific, Measurable, Attainable, Time-bound and how to apply it"
             }
           />
         </div>
         <div className="sec4-card-container-innerDiv">
           <CardSecFour
-            srcLink="https://www.keelerglobal.com/wp-content/uploads/2023/08/eye_drop_header.jpg"
+            srcLink="https://www.youtube.com/embed/VLcYYGd0q6E?si=AmYwfeDy5ihBzZBW" title="YouTube video player"
             text={
               "Setting SMART Goals: How to Define and Priortize Your Objectives"
             }

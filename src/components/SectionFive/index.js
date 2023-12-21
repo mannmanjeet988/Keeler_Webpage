@@ -17,22 +17,19 @@ const SectionFive = () => {
           </div>
           <CardSecFive
             srcLink="https://www.keelerglobal.com/wp-content/uploads/2023/05/support1.png"
-            text1={"Return Your Product For Repair"}
-           
+            text1={"Return Your Product For Repair"}         
             text3={"Fill the Form"}  
           />
           <hr />
           <CardSecFive
             srcLink="https://www.keelerglobal.com/wp-content/uploads/2023/05/support2.png"
-            text1={"Browse Product Manuals"}
-            
+            text1={"Browse Product Manuals"}          
             text3={"Get User Manuals"}
           />
           <hr />
           <CardSecFive
             srcLink="https://www.keelerglobal.com/wp-content/uploads/2023/05/support3.png"
-            text1={"Contact Technical Service"}
-           
+            text1={"Contact Technical Service"}  
             text3={"Get in touch"}
           />
         </div>
@@ -40,7 +37,9 @@ const SectionFive = () => {
         <div className="sec-5-right-container">
           <div className="sec-5-right-inner-container">
             <h2 style={{ textAlign: "left" }}>Find Distributors</h2>
-            <img src="https://www.keelerglobal.com/wp-content/uploads/2023/05/map.png" />
+           <div className="sec-5-right-inner-img-container">
+           <img src="https://www.keelerglobal.com/wp-content/uploads/2023/05/map.png" />
+            </div>
             <button className="sec5-btn">Search Now</button>
           </div>
         </div>

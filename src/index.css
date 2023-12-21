@@ -25,7 +25,6 @@ code {
 .wrapper {
   /* margin:0.5rem 3rem; */
   padding: 2rem 9rem;
-  border: 1px solid black;
 }
 
 #section-2,
@@ -35,9 +34,7 @@ code {
 
 #sec-four {
   background-color: #d2e9ff;
-  /* background-image: url("https://img.freepik.com/free-photo/vivid-blurred-colorful-wallpaper-background_58702-3799.jpg");
-  background-size: cover; 
-  background-repeat:no-repeat */
+  
 }
 
 #section-5 {
@@ -69,7 +66,6 @@ a {
 .dot-pattern span {
   height: 7px;
   width: 7px;
-  /* background-color: #052133; */
   border-radius: 50%;
 }
 
@@ -101,9 +97,9 @@ a {
   width:0px;
   height:0px; 
   line-height: 0px; */
-  border: 1px solid #f1f8fd !important;
+  border: none !important;
   cursor: pointer;
-  outline: 1px solid #f1f8fd !important;
+  outline: none !important;
 }
 
 .bqCWu {
@@ -124,11 +120,11 @@ a {
   outline: 1px solid #f1f8fd !important;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 600px) {
   .wrapper {
     /* margin:0.5rem 3rem; */
-    padding: 0rem 0.5rem;
-    border: 1px solid black;
+    padding: 0rem 1rem;
+    /* border: 1px solid black; */
   }
 
   .arrow-container a {
@@ -141,6 +137,22 @@ a {
 
   #section-2,
   #section-1 {
-    padding: 0rem;
+    padding: 0rem !important;
+  }
+
+  #section-three {
+    padding-left: 0rem 0.5rem 0rem 1.5rem;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1010px) {
+  .wrapper {
+    padding: 2rem 4rem !important;
+  }
+
+  #section-2,
+  #section-1 {
+    padding: 0rem !important;
+    /* padding-right:0rem !important; */
   }
 }

@@ -13,15 +13,16 @@
   /* gap:0.5rem; */
 }
 
-.section-two-cards-inner-container {
-  border: 1px solid blue;
-  /* width:420px; */
-  /* width:300px; */
-  /* max-height: 302px */
-}
-
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 600px) {
   #section-2 {
-    margin: 1rem 0rem;
+    margin: 2.5rem 0rem;
   }
 }
+
+@media screen and (min-width: 601px) and (max-width: 1010px) {
+  #section-2 {
+    margin: 1.5rem 0rem;
+  }
+}
+
+

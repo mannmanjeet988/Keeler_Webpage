@@ -45,18 +45,20 @@
   font-weight: 500;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 700px) {
+
+  
   .card-section-three {
     display: flex;
     gap: 1.2rem;
   }
 
-  .event-info-conatiner{
-width:80%;
+  .event-info-conatiner {
+    width: 80%;
   }
 
-  .date-conatiner{
-    width:18%;
+  .date-conatiner {
+    width: 18%;
   }
 
   .event-info-conatiner p {

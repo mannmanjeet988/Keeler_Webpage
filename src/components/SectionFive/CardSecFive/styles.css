@@ -16,7 +16,7 @@
 }
 
 .right-container {
-  width: 52%;
+  width: 54%;
   display: flex;
   padding-left: 1rem;
   text-align: left;
@@ -34,7 +34,7 @@
   justify-content: flex-start;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 600px) {
   .cardsec5 {
     gap: 1rem;
   }
@@ -47,7 +47,7 @@
   }
 
   .right-container {
-    width: 42%;
+    width: 44%;
     gap: 0.6rem;
   }
 
@@ -55,5 +55,11 @@
     font-size: 0.8rem;
     font-weight: 400;
     margin: 0.5rem 0;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1010px) {
+  .left-container {
+    width: 35%;
   }
 }

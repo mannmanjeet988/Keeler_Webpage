@@ -1,7 +1,7 @@
 .newscardContainer {
   display: flex;
   flex-direction: column;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   align-items: flex-start;
   /* min-width:350px; */
   width: 95%;
@@ -44,7 +44,7 @@
   padding-right: 0.5rem;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 600px) {
   .newsCard-date-container .newsDate {
     font-size: 0.8rem !important;
   }

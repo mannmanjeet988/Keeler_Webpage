@@ -7,7 +7,7 @@ import { FaChevronLeft } from "react-icons/fa";
 const SectionThree = () => {
   return (
     <div className="wrapper" id="section-three">
-      <h2 style={{ textAlign: "left" }}>Keeler Events</h2>
+      <h2 className="keeler-events-h2" style={{ textAlign: "left" }}>Keeler Events</h2>
       <div className="section-three-conatiner">
         <div className="left-container">
           <div className="eventsLeftCard">
@@ -47,7 +47,7 @@ const SectionThree = () => {
         <div className="right-container">
           <div className="events-container">
             <div className="eventsHeading">
-              <p className="upcomingEventsHeading">Upcoming Events</p>
+              <p style={{textAlign:"center"}} className="upcomingEventsHeading">Upcoming Events</p>
             </div>
 
             <div>

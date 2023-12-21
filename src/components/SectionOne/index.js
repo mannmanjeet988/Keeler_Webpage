@@ -9,13 +9,13 @@ export const SectionOne = () => {
     { width: 500, itemsToShow: 1 },
     { width: 640, itemsToShow: 2 },
     { width: 768, itemsToShow: 3 },
-    { width: 1200, itemsToShow: 3 },
-    { width: 1500, itemsToShow: 3 },
+    // { width: 1200, itemsToShow: 3 },
+    // { width: 1500, itemsToShow: 3 },
   ];
   return (
     <div className="wrapper" id="section-1">
       <div className="locations-container">
-        <h2 style={{ textAlign: "left", paddingLeft: "4rem" }}>
+        <h2 className="locationsH2" style={{ textAlign: "left", paddingLeft: "4rem" }}>
           Keeler Countries
         </h2>
         <div className="locations-inner-container">
@@ -64,9 +64,9 @@ export const SectionOne = () => {
           </Carousel>
         </div>
 
-        <div className="arrow-container">
+        <div className="arrow-container" id="countryAnchorTag">
           <span>
-            <a href="#">Explore All Companies</a>
+            <a  href="#">Explore All Companies</a>
           </span>
           <span className="arrow-icon">
             <FaChevronRight />

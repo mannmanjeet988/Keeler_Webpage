@@ -7,7 +7,7 @@ const CardSecFive = ({ text1, text2, text3, srcLink }) => {
   return (
     <div className="cardsec5">
       <div className="left-container">
-        {/* <img src="https://www.keelerusa.com/media/wysiwyg/theme/distributor.webp" alt="sec5Image" /> */}
+        
         <img src={srcLink} alt="sec5Image" />
       </div>
       <div className="right-container">

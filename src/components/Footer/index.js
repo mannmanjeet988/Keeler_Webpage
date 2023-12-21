@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div className="wrapper">
       <div className="schools-container">
-        <h2 style={{ marginBottom: "-0.5rem" }}>Schools Serviced by Keeler</h2>
+        <h2 style={{ marginBottom: "-0.5rem" ,marginTop:"1rem"}}>Schools Serviced by Keeler</h2>
         <div class="dot-pattern">
           <span style={{ backgroundColor: "#000000" }}></span>
           <span style={{ backgroundColor: "#606060" }}></span>
