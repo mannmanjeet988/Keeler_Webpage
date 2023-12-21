@@ -18,21 +18,21 @@ const SectionFive = () => {
           <CardSecFive
             srcLink="https://www.keelerglobal.com/wp-content/uploads/2023/05/support1.png"
             text1={"Return Your Product For Repair"}
-            // text2={"For Repair"}
+           
             text3={"Fill the Form"}  
           />
           <hr />
           <CardSecFive
             srcLink="https://www.keelerglobal.com/wp-content/uploads/2023/05/support2.png"
             text1={"Browse Product Manuals"}
-            // text2={"Manuals"}
+            
             text3={"Get User Manuals"}
           />
           <hr />
           <CardSecFive
             srcLink="https://www.keelerglobal.com/wp-content/uploads/2023/05/support3.png"
             text1={"Contact Technical Service"}
-            // text2={"Service"}
+           
             text3={"Get in touch"}
           />
         </div>
