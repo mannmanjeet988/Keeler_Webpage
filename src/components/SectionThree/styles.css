@@ -10,13 +10,43 @@
 }
 
 .section-three-conatiner .left-container {
-    width:65%;
+    width:55%;
     border:1px solid brown;
 }
 
 .section-three-conatiner .right-container {
-    width:35%;
+    width:38%;
     border:1px solid brown;
+    padding: 0;
+    line-height: 20px;
+}
+
+.eventsLeftCard{
+    display:flex;
+    gap:0.85rem;
+}
+
+.eventsCard-left-container,.eventsCard-right-container{
+    width:55%;   
+}
+
+.eventsCardDate{
+    color:#606060;
+    font-size: 0.6rem;
+    font-weight: 500;
+}
+
+.eventsCard-right-container{
+    width:45%;
+    display:flex;
+    flex-direction: column;
+    gap:0.5rem;
+    text-align: left;
+    /* padding-right: 0.5rem; */
+}
+.eventsCard-left-container img{
+    width:100%;
+    height: 190px;
 }
 
 .eventsHeading{
@@ -30,7 +60,80 @@
     display:flex;
     flex-direction: column;
     border:1px solid blue;
-    gap:1rem;
+    gap:0.7rem;
     width:100%;
     /* padding-right:1rem; */
+}
+
+#sec-3-anchor-tag-container{
+    text-align: left!important;
+}
+
+
+
+#sec-3-arrowIcon{
+    font-size: 0.6rem;
+    margin-left: 0.4rem;
+    margin-bottom: 1rem;
+}
+
+#sec-3-arrowscontainer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#sec-3-arrowscontainer span{
+    font-size: 0.8rem;
+    color:#606060;
+    font-weight: 100;
+}
+
+@media screen and (max-width:550px){
+    #section-three{
+        padding-top:1rem!important;
+    }
+    .section-three-conatiner{
+        display:flex;
+        flex-direction: column;
+        gap:0.5rem;
+        padding:1rem 0.5rem;
+    }
+
+    .section-three-conatiner h4{
+        font-size: 1.2rem;
+    }
+
+    .eventsLeftCard{
+        display: flex;
+        gap:1.8rem;
+    }
+
+    .section-three-conatiner .left-container,.section-three-conatiner .right-container{
+          width:100%;
+    }
+
+    .eventsHeading{
+        padding-top:1rem;
+        padding-bottom:1rem;
+        font-weight: 500;
+    }
+
+    .upcomingEventsHeading{
+        font-size: 1.4rem;
+        text-align: center;
+    }
+
+    .eventsCard-left-container{
+        width:45%;
+    }
+
+    .eventsCardDate{
+        color:#606060;
+        font-size: 0.8rem;
+        font-weight: 500;
+    }
+
+    
+
+
 }

@@ -1,43 +1,59 @@
-.cardsec5{
-    display:flex;
-    /* justify-content: space-evenly; */
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    
+.cardsec5 {
+  display: flex;
+  /* justify-content: space-evenly; */
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
-.cardsec5 img{
-    width:100%;
-    height:100%;
-    /* padding:0.5rem; */
+.cardsec5 img {
+  width: 100%;
+  height: 100%;
+  /* padding:0.5rem; */
 }
 
-.left-container{
-    width:25%;
+.left-container {
+  width: 25%;
 }
 
-.right-container{
-    width:70%;
-    display:flex;
-    padding-left: 1rem;
-    flex-direction: column;
-    align-items:flex-start;
-    padding-top: 0.5rem;
-    padding-bottom: 1rem;
-    
-    /* gap:0.5rem; */
-    /* background-color: aqua; */
+.right-container {
+  width: 52%;
+  display: flex;
+  padding-left: 1rem;
+  text-align: left;
+  flex-direction: column;
+  /* justify-content: flex-start; */
+  /* align-items:flex-start; */
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+
+  /* gap:0.5rem; */
+  /* background-color: aqua; */
 }
 
-
-
-.arrow-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.right-container .arrow-container {
+  justify-content: flex-start;
 }
 
-.arrow-icon{
-    font-size: smaller;
-    color: dodgerblue;
+@media screen and (max-width: 550px) {
+  .cardsec5 {
+    gap: 1rem;
+  }
+
+  .cardsec5 h4 {
+    font-size: 1.2rem;
+  }
+  .left-container {
+    width: 35%;
+  }
+
+  .right-container {
+    width: 42%;
+    gap: 0.6rem;
+  }
+
+  .sec-5-left-container p {
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin: 0.5rem 0;
+  }
 }

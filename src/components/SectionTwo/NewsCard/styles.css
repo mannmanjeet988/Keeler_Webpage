@@ -1,33 +1,58 @@
-.newscardContainer{
-    display:flex;
-    flex-direction: column;
-    border:1px solid blue;
-    align-items: flex-start;
-    /* min-width:350px; */
-    width:95%;
+.newscardContainer {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid blue;
+  align-items: flex-start;
+  /* min-width:350px; */
+  width: 95%;
 }
 
-.newsCard-top-container{
-    max-height:250px;
-    max-width:100%;
+.newsCard-top-container {
+  min-height: 220px;
+  max-height: 220px;
+  width: 100%;
 }
 
-.newsCard-top-container img{
-    height:auto;
-    width:100%;
-    text-align: center;
-    padding-bottom: 0.5rem;
+.newsCard-top-container img {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 0.5rem;
 }
 
-.newsCard-date-container{
-    display:flex;
-    gap:0.5rem;
+.director-name {
+  font-weight: 500;
+  font-size: 0.6rem;
+  font-style: italic;
+  font-family: "Inter";
+  color: #2d2d2d;
 }
 
-.newsCard-bottom-container{
-    display:flex;
-    flex-direction: column;
-    text-align:left;
-    gap:0.5rem;
-    text-wrap: wrap;
+.newsCard-date-container {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.newsCard-bottom-container {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 0.6rem;
+  text-wrap: wrap;
+  min-height: 150px;
+  padding-right: 0.5rem;
+}
+
+@media screen and (max-width: 550px) {
+  .newsCard-date-container .newsDate {
+    font-size: 0.8rem !important;
+  }
+  .newsCard-date-container .newsName {
+    font-size: 0.8rem !important;
+  }
+
+  .director-name {
+    font-size: 0.75rem !important;
+  }
 }

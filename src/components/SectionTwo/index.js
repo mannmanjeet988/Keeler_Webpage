@@ -6,7 +6,7 @@ import Carousel from "react-elastic-carousel";
 const SectionTwo = () => {
   const breakPoints = [
     { width: 500, itemsToShow: 1 },
-    { width: 600, itemsToShow: 2 },
+    { width: 640, itemsToShow: 2 },
     { width: 768, itemsToShow: 2 },
     { width: 1200, itemsToShow: 2 },
     { width: 1500, itemsToShow: 2 },
@@ -14,15 +14,33 @@ const SectionTwo = () => {
   return (
     <div className="wrapper" id="section-2">
       <div className="news-section-container">
-        <h4 style={{ color: "tomato" }}>Blog & News</h4>
+        <p
+          style={{
+            color: "#ed6f1e",
+            fontWeight: "500",
+            marginBottom: "-0.5rem",
+          }}
+        >
+          Blog & News
+        </p>
         <h2>Get the inside scoop</h2>
-       
-          <div className="section-two-cards-container">
-          <Carousel itemsToShow={2} breakPoints={breakPoints}>
-          <NewsCard
+        <div class="dot-pattern">
+          <span style={{ backgroundColor: "#000000" }}></span>
+          <span style={{ backgroundColor: "#606060" }}></span>
+          <span style={{ backgroundColor: "#a8a8a8" }}></span>
+          <span style={{ backgroundColor: "#cccccc" }}></span>
+        </div>
+
+        <div className="section-two-cards-container">
+          <Carousel
+            itemsToShow={2}
+            breakPoints={breakPoints}
+            pagination={false}
+          >
+            <NewsCard
               className="section-two-cards-inner-container"
               srcLink={
-                "https://www.keelerglobal.com/wp-content/uploads/2023/10/banner.jpg"
+                "https://www.keelerglobal.com/wp-content/uploads/2023/08/A-Step-by-Step-Guide-on-How-to-Become-an-Optometrist.jpg"
               }
               newsName={"Getting Started"}
               newsDate={"March 29, 2023"}
@@ -31,7 +49,7 @@ const SectionTwo = () => {
             <NewsCard
               className="section-two-cards-inner-container"
               srcLink={
-                "https://www.keelerglobal.com/wp-content/uploads/2023/08/eye_drop_header.jpg"
+                "https://www.keelerglobal.com/wp-content/uploads/2023/10/banner.jpg"
               }
               newsName={"Optometry, Slit Lamp, Keeler"}
               newsDate={"March 10, 2023"}
@@ -39,19 +57,18 @@ const SectionTwo = () => {
                 "Smart phone adaptor for the Keeler Portable Slit Lamp (PSL)"
               }
             />
-          <NewsCard
+            <NewsCard
               className="section-two-cards-inner-container"
               srcLink={
-                "https://www.keelerglobal.com/wp-content/uploads/2023/08/A-Step-by-Step-Guide-on-How-to-Become-an-Optometrist.jpg"
+                "https://www.keelerglobal.com/wp-content/uploads/2023/08/eye_drop_header.jpg"
               }
-              newsName={"Slit Lamp, Keeler"}
+              newsName={"Getting Started"}
               newsDate={"April 15, 2023"}
               newsInfo={
-                "Transforming Cataracts and Glaucoma Care "
+                "Transforming Cataracts and Glaucoma Care: The Innovative Approach "
               }
             />
-            
-            
+
             <NewsCard
               className="section-two-cards-inner-container"
               srcLink={
@@ -61,10 +78,8 @@ const SectionTwo = () => {
               newsDate={"March 31, 2023"}
               newsInfo={"Unveiling the link between Diabetes and Eye health "}
             />
-            
-           </Carousel> 
-          </div>
-          
+          </Carousel>
+        </div>
       </div>
     </div>
   );

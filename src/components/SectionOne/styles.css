@@ -1,13 +1,18 @@
-.locations-container{
-    display:flex;
-    flex-direction: column;
-    gap:0.5rem;
+.locations-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
 
-.locations-inner-container{
-    display:flex;
-    gap:0.8rem;
-    
+.locations-inner-container {
+  display: flex;
+  gap: 0.8rem;
+}
+
+@media screen and (max-width: 550px) {
+  .locations-container {
+    margin: 1.5rem 0rem;
+  }
 }
 
 /* .locations-inner-container-div{

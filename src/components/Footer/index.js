@@ -3,17 +3,16 @@ import "./styles.css";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import { FaChevronRight } from "react-icons/fa6";
 
-
 const Footer = () => {
   return (
     <div className="wrapper">
       <div className="schools-container">
-        <h2 class="styleh1">Schools Serviced by Keeler</h2>
+        <h2 style={{ marginBottom: "-0.5rem" }}>Schools Serviced by Keeler</h2>
         <div class="dot-pattern">
-          <span style={{ backgroundColor: "#777777" }}></span>
-          <span style={{ backgroundColor: "#9B9B9B" }}></span>
-          <span style={{ backgroundColor: "#BFBFBF" }}></span>
-          <span style={{ backgroundColor: "#D2D2D2" }}></span>
+          <span style={{ backgroundColor: "#000000" }}></span>
+          <span style={{ backgroundColor: "#606060" }}></span>
+          <span style={{ backgroundColor: "#a8a8a8" }}></span>
+          <span style={{ backgroundColor: "#cccccc" }}></span>
         </div>
         <div className="schools-img-container">
           <div className="school-img-div">
@@ -29,14 +28,14 @@ const Footer = () => {
             <img src="https://www.keelerglobal.com/wp-content/uploads/2023/05/service4.png" />
           </div>
         </div>
-        <div className="school-text">
+        <div className="arrow-container">
           <span>
-            <a href="#">Explore all schools</a>
+            <a href="#">Explore All Schools</a>
           </span>
-          {/* <span className="arrow-icon">
-            <ArrowForwardIosIcon />
-          </span> */}
-          <span className='arrow-icon'><FaChevronRight/></span>
+
+          <span className="arrow-icon">
+            <FaChevronRight />
+          </span>
         </div>
       </div>
     </div>

@@ -1,31 +1,70 @@
-.card-section-three{
-    display:flex;
-    gap:0.6rem;
+.card-section-three {
+  display: flex;
+  gap: 0.6rem;
 }
 
-.date-conatiner{
+.date-conatiner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #303030;
+  padding: 0.3rem 1rem;
+  color: white;
+  min-width: 58px;
+  max-height: 48px;
+  min-height: 48px;
+}
+
+.date-conatiner-active {
+  background-color: #ed6f1e;
+}
+
+#top-number {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+#bottom-number {
+  font-size: 0.9rem;
+  font-weight: 100;
+  font-family: "Inter";
+  font-style: italic;
+}
+
+.event-info-conatiner {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.event-info-conatiner p {
+  font-size: 0.7rem;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 550px) {
+  .card-section-three {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: darkslategray;
-    padding: 0.2rem 1rem;
-    color:white;
-    min-width:58px;
-}
+    gap: 1.2rem;
+  }
 
-.top-number{
-    font-size: 22px;
-    font-weight: 400;
-}
+  .event-info-conatiner{
+width:80%;
+  }
 
-.event-info-conatiner{
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-}
+  .date-conatiner{
+    width:18%;
+  }
 
-.event-info-conatiner p{
-    font-size:0.75rem;
+  .event-info-conatiner p {
+    font-size: 0.95rem;
     font-weight: 500;
+  }
+
+  #bottom-number {
+    font-size: 1rem;
+  }
 }
