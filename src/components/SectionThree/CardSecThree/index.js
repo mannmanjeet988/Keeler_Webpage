@@ -3,9 +3,7 @@ import "./styles.css";
 
 const CardSecThree = ({ text1, text2, text3, text4, state = false }) => {
   return (
-    // {`grid-container ${
-    //   coin.price_change_percentage_24h < 0 && "grid-container-red"
-    // }`
+     
     <div className="card-section-three">
       <div className={`date-conatiner ${state && "date-conatiner-active"}`}>
         <span id="top-number">{text1}</span>
