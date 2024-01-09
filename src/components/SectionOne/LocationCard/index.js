@@ -10,9 +10,7 @@ const LocationCard = ({ srcLink, countryName }) => {
       <div className="locations-card-bottom-container">
         <h3>{countryName}</h3>
         <p
-          className="loremText"
-          style={{ color: "#181818", fontSize: "0.6rem", fontWeight: "400" }}
-        >
+          className="loremText">
           Lorem ipsum dolor sit amet, consectectur adipiscing elit morbi aliquam
           lorem ipsum dolor
         </p>

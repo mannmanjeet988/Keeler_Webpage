@@ -24,9 +24,20 @@
   }
 
   .locationsH2{
-    margin-top: 1rem;
+    margin-top: 3rem;
+    padding-left: 0rem !important;
+    text-align: center !important;
   }
 }
+
+@media screen and (min-width:601px) and (max-width:1010px){
+
+  .locationsH2{
+    margin-top: 4rem;
+  }
+
+}
+
 
 /* .locations-inner-container-div{
     width:25%;
